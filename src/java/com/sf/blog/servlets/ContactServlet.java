@@ -35,7 +35,7 @@ public class ContactServlet extends HttpServlet {
 
                 //set email from contact from
                 try {
-                    Email e = new Email("sourabhfulmali623@gmail.com", "sobhu623@");
+                    Email e = new Email("email_here", "password_your_email_here");
 
                     e.setFrom("sourabhfulmali623@gmail.com", "Tech Blog:");
 
